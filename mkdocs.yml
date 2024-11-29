@@ -1,0 +1,21 @@
+site_name: documentation-online
+site_url: https://cgi-learning-hub.github.io/documentation-online/
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: orange
+      accent: teal
+    - scheme: slate
+      primary: orange
+      accent: teal
+
+nav:
+  - Home: index.md
+  - Documentation 1:
+    - doc1: doc1/doc.md
+  - Documentation 2:
+    - doc2: doc2/doc.md
+
+extra:
+  static_dir: assets
